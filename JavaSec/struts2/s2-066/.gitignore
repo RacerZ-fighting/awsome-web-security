@@ -1,0 +1,48 @@
+# IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+Servers/
+
+# Java annotation processor (APT)
+.factorypath
+
+#VSCode
+.vscode
+
+# OSX
+.DS_Store
+
+# Scripts
+*.sh
+
+# jenv
+.java-version
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+plugins/testng/test-output
+test-output
+
+# Sonar
+/.sonar/
+
+# Tidelift CLI scanner
+.tidelift
