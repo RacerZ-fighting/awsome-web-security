@@ -4,7 +4,9 @@
 
 - [Static Program Analysis | Tai-e (pascal-lab.net)](https://tai-e.pascal-lab.net/lectures.html)
 
-  note (TODO)：https://racerz.notion.site/Tai-e-f22255f503254fcaa75633ccd331cfdb?pvs=4
+  note (Archieved)：https://racerz.notion.site/Tai-e-f22255f503254fcaa75633ccd331cfdb?pvs=4
+
+- [课程讲义 - 软件分析技术 / 2023秋 (xiongyingfei.github.io)](https://xiongyingfei.github.io/SA_new/2023/lectures.html)
 
 - [analysis-tools-dev/static-analysis: ⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality. (github.com)](https://github.com/analysis-tools-dev/static-analysis)
 
