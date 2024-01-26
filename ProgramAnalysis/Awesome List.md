@@ -10,6 +10,8 @@
 
 - [analysis-tools-dev/static-analysis: ⚙️ A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality. (github.com)](https://github.com/analysis-tools-dev/static-analysis)
 
+- [shining1984/PL-Compiler-Resource: 程序语言与编译技术相关资料（持续更新中） (github.com)](https://github.com/shining1984/PL-Compiler-Resource)
+
 - (Book) Static Program Analysis (Anders Møller and Michael I. Schwartzbach)
 
 - (Book) Logic in Computer Science: Modelling and Reasoning about Systems. (Michael Huth and Mark Ryan)
