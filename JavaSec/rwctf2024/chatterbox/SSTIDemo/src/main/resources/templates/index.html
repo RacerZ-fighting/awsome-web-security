@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ChatterBox</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>ChatterBox</h2>
+    <form action="/post_message" method="post">
+        <div class="mb-3">
+            <textarea class="form-control" name="content" rows="3" placeholder="Write your message here..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">submit</button>
+    </form>
+
+    <div class="mt-4">
+        <h4>Message Board</h4>
+        <div th:each="message : ${messages}">
+            <div class="card mb-2">
+                <div class="card-body">
+                    <p th:text="${message.content}">Message content</p>
+                    <small th:text="${message.created_at}">Posted on</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
